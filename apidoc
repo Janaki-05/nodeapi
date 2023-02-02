@@ -1,0 +1,69 @@
+Page1
+
+1. List of products
+http://localhost:9123/productList
+
+Page 2
+
+1. textbooks wrt subject
+http://localhost:9123/textbook/2
+
+2. topic wrt schoolLevel
+http://localhost:9123/topic/3
+
+3. books wrt core curriculum
+//http:localhost:9123/tb/3
+
+Page 3
+
+1.textbook details wrt textbook
+//http:localhost:9123/tb/1
+
+
+2. Details of gizmos wrt grade
+http://localhost:9123/details/4
+
+page4
+1. place order
+http://localhost:9123/placeOrder
+{
+        "order_id": 7,
+        "name":"Bhavya",
+        "email":"bhavya@gmail.com",
+        "add":"Delhi",
+        "phone" : 9832556789,
+        "cost" : 600,
+        "cart_id":2,
+        "detailsOrd":[
+            8,
+            12,
+            224
+        ]
+       
+    }
+
+2. Details list after place order
+http://localhost:9123/detailsList
+{
+    "id":[5,9,14]
+}
+
+
+page5
+1. list of orders
+http://localhost:9123/orders
+
+2. order wrt email
+http://localhost:9123/orders?email=anitha@gmail.com
+
+3.update order
+http://localhost:9123/updateOrder/3
+{
+    "bank_name":"SBI"
+}
+4.delete
+http://localhost:9123/deleteOrder/63db69a9e1acd68928ae60d8
+
+
+
+
